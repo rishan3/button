@@ -11,4 +11,22 @@
   animation: line1 0.4s ease-in-out;
   animation-fill-mode: forwards;
 }
-.container
+.container{
+  cursor: pointer;
+}
+@keyframes line1{
+  50%{
+    transform: translateY(3rem);
+  }
+  100%{
+    transform: translateY(3rem);
+  }
+}
+@keyframes line2{
+  50%{
+    transform: translateY(3rem);
+  }
+  100%{
+    transform: translateY(3rem);
+  }
+}
