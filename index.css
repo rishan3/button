@@ -4,10 +4,10 @@
   background-color: blue;
   margin: 1rem;
   border-radius: 15px;n
-  transition: animation  0.4s ease-in-out;
+  transition: animation 0.4s ease-in-out;
   animation-name: none;
 }
-.line1, ,.line2, .line3 {
+.line1, .line2, .line3 {
   animation: line1 0.4s ease-in-out;
   animation-fill-mode: forwards;
 }
@@ -27,6 +27,6 @@
     transform: translateY(-3rem);
   }
   100%{
-    transform: translateY(3rem) rotate(-45deg);
+    transform: translateY(-3rem) rotate(-45deg);
   }
 }
