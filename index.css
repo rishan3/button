@@ -1,26 +1,34 @@
 .line {
   width: 200px;
   height: 2rem;
-  background-color: blue;
+  background-color: red;
   margin: 1rem;
   border-radius: 15px;n
   transition: animation 0.4s ease-in-out;
   animation-name: none;
 }
-.line1, .line2, .line3 {
+.line1 {
   animation: line1 0.4s ease-in-out;
   animation-fill-mode: forwards;
 }
-.container{
+.line2 {
+  visibility: hidden;
+}
+.line3 {
+  animation: line2 0.4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.container {
   cursor: pointer;
 }
+
 @keyframes line1{
-  50%{
-    transform: translateY(3rem);
-  }
-  100%{
-    transform: translateY(3rem) rotate(45deg);
-  }
+    50%{
+      transform: translateY(3rem);
+    }
+    100%{
+      transform:translateY(3rem) rotate(45deg);
+    }
 }
 @keyframes line2{
   50%{
