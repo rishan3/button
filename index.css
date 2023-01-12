@@ -19,14 +19,14 @@
     transform: translateY(3rem);
   }
   100%{
-    transform: translateY(3rem);
+    transform: translateY(3rem) rotate(45deg);
   }
 }
 @keyframes line2{
   50%{
-    transform: translateY(3rem);
+    transform: translateY(-3rem);
   }
   100%{
-    transform: translateY(3rem);
+    transform: translateY(3rem) rotate(-45deg);
   }
 }
